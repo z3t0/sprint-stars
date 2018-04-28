@@ -1,3 +1,9 @@
 # Stars
+Uses Drakma to make requests to GitHub's API and determines the total stars for a user.
 
-Returns the total number of stars for a user from GitHub
+## Installation
+NOTE: I am still waiting for this project to be added to quicklisp
+
+``` common-lisp
+(ql:quickload :stars)
+```
