@@ -1,6 +1,3 @@
-(ql:quickload :drakma) ;; http library
-(ql:quickload :cl-json) ;; json library
-
 (defpackage :stars
   (:use :common-lisp
 	:drakma
